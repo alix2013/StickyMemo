@@ -2,7 +2,7 @@
 
 Easy quickly and efficiently manage your ideas, todo list, daily business，study notes, shopping list and all things which you need remember, it's a real sticky notes you really needed 
 
-##Features
+## Features
 * Easy create edit move memo
 * Customize any type of font in system, size, color, background sticker style
 * Rich and colorful  stickers 
