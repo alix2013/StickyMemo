@@ -1,4 +1,12 @@
-# StickyMemo
+# Better Sticky Memo
+
+## Download site:
+
+[Download](https://itunes.apple.com/us/app/stickymemo/id1321800123
+)
+
+or Appstore search "Better sticky memo"
+
 
 Easy quickly and efficiently manage your ideas, todo list, daily business，study notes, shopping list and all things which you need remember, it's a real sticky notes you really needed 
 
