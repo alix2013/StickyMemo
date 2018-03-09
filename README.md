@@ -16,6 +16,8 @@ Easy quickly and efficiently manage your ideas, todo list, daily business，stud
 * Rich and colorful  stickers 
 * Easy to set reminder by different repeat cycle
 * Attach unlimited photos, full screen quick view photos
+* Attach unlimited audio records
+* Intelligent speech recognition from audio record to memo text
 * Organize memo to different desktop board
 * Customize desktop board background photo
 * Drop&drag to anywhere in the board
@@ -28,8 +30,8 @@ Easy quickly and efficiently manage your ideas, todo list, daily business，stud
 * Quick create memo from system clipboard text
 * Portrait landscape typing, support any orientation
 * Zoom in full screen view 
+* Easy to share, backup, sync notes(include photo and sound)
+with nearby iPhone/iPad
 * Export content by email, support email single memo and all in desktop
 * Share to other apps
-
-
 
