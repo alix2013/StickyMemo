@@ -10,7 +10,7 @@ or Appstore search "Better sticky memo"
 Easy quickly and efficiently manage your ideas, todo list, daily business，study notes, shopping list and all things which you need remember, it's a real sticky notes you really needed 
 
 ## Demo
-![Demo](assets/stickymemo_demo.gif)
+![Demo](stickymemo_demo.gif)
 
 ## Features
 * Easy create edit move memo
