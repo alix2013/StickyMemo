@@ -1,0 +1,162 @@
+/* 
+  Localizable.strings
+  StickyMemo
+
+  Created by alex on 2017/12/8.
+  Copyright © 2017年 alix. All rights reserved.
+*/
+
+
+"OK" = "确认";
+"Cancel" = "取消";
+"Delete" = "删除";
+"Open" = "打开";
+
+"Delete memo" = "删除笔记?";
+"Set the current appearance to the default of the next new memo?" = "将当前外观设置为下一次新创建备忘录的默认值？";
+
+"Input Desktop Name" = "输入桌面名称";
+"Input desktop name placeholder" = "名字小于20个字";
+"Name is too long" = "输入的名称太长";
+"Choice action for" = "选择操作桌面:";
+"Confirm delete desktop" = "确认删除桌面和这个桌面里面的所有笔记吗？";
+"Change background image" = "设置桌面背景图片";
+"Rename desktop" = "重命名桌面";
+"DefaultDesktopName" = "缺省";
+
+"No content" = "还没写内容";
+
+"Take Photo" = "拍照";
+"Photo Library" = "相册";
+
+// for image
+"Confirm delete image" = "确认删除照片?";
+"Choice action" = "选择操作";
+
+"Exit editing" = "退出编辑?";
+"Save and exit" = "保存退出";
+"Exit without save" = "不保存退出";
+
+"View photo" = "全屏浏览";
+
+//for long tap
+"Edit" = "编辑";
+"Move" = "移动";
+"Share" = "共享";
+"Mail" = "Email";
+"Mail desktop" = "Email桌面所有笔记";
+"Delete" = "删除";
+
+"No more desktop" = "没有其他桌面可供选择，请先创建";
+
+"Confirm delete memo" = "从回收站彻底删除笔记？";
+"Restore deleted memo" = "从回收站恢复到原来位置？";
+
+"Empty trash can" = "清空回收站?";
+
+//for move
+"Choice target desktop" = "请选择一个要移动的目标桌面";
+//for settings
+"Quick start" = "快速指南";
+"Contact developer" = "意见反馈";
+"Rate me in AppStore" = "在Appstore好评";
+"Sound switch" = "音效开关";
+"Go premium" = "账户升级";
+"Purchase restore purchase" = "购买或者在新设备恢复以前的购买,\n解锁功能";
+"Restore purchase" = "恢复购买";
+"Auto paste" = "自动粘贴";
+"Auto paste desc" = "创建笔记时，自动粘贴当前粘贴板\n中的文字";
+
+//for IAP
+"Transaction is in progress" = "交易进行中,请耐心等待...";
+"Restore purchase success" = "成功恢复以前的购买";
+"Transaction success" = "交易成功";
+"Transaction failed" = "交易失败";
+"No need restore" = "不需要在此设备恢复购买，当前设备已经购买";
+"Not found purchased product" = "没有找到购买记录";
+
+//for IAP title
+"Purchase" = "购买";
+
+// for sticker shop
+"Sticker shop" = "贴纸商店";
+"Go sticker shop" = "去贴纸商店购买";
+"More stickers" = "购买贴纸或者在新设备恢复购买";
+
+//for shortcutkey
+"List item shortcut key" = "列表项快捷键";
+"Shortcut subtitle" = "增加/删除/排序列表项快捷键";
+"Save" = "保存";
+
+// for quick start
+"Quick start main" = "4个按钮，创建，管理桌面，列表和设置;\nTips: 双点桌面空白处快速创建笔记";
+"Quick start gesture" = "手势：捏合放大/缩小，拖拽移动位置，双击进入编辑模式，长按弹出菜单";
+"Quick start delete" = "移动到桌面外面删除到回收站";
+"Quick start edit" = "编辑模式左右滑动文字，切换列表风格,双击空白处保存退出";
+"Quick start table" = "左右滑动切换列表内容(当前桌面/收藏/提醒/回收站/全部);\nTips:双击文字，全屏放大显示";
+"Quick start speech" = "保存多个录音，附带智能语音识别，翻译语音成文字写到笔记";
+"Quick start airtransfer" = "更加简单的和附近的iPhone/iPad共享,备份同步笔记（包括图片，声音)";
+
+//for password and touchID
+"Password&TouchID" = "密码与Touch ID";
+"Protect privacy by password/TouchID"="通过密码或者指纹保护隐私";
+
+"Set/Change password" = "设置/更改密码";
+"Enable password" = "开启密码保护";
+"Need password when start or re-active" = "启动或者切换到App需要输入密码";
+"Enabled Touch ID(Fingerprint)" = "开启Touch ID(指纹)解锁";
+"Enable password first" = "需要先开启密码保护";
+
+//for passworView
+"Input password" = "输入密码";
+"Input new password" = "输入新密码";
+"Password is invalid" = "密码错误";
+"Input password again" = "再次输入密码";
+"2 passwords are different,re-input" = "两次密码不相同，重新输入";
+"Password set success" = "密码设置成功!";
+
+//for notification action title
+"View in board" = "查看";
+"Reminder after 10 minutes" = "10分钟后提醒我";
+"Reminder after 30 minutes" = "30分钟后提醒我";
+"Reminder after 1 hour" = "1个小时后提醒我";
+"Mark as complete" = "标记为已经完成";
+
+
+//for notification repeat title
+"Never" = "永不";
+"Hourly" = "每小时";
+"Daily" = "每天";
+"Weekly" = "每周";
+"Monthly" = "每月";
+"Repeat" = "重复:";
+"Minute" = "分";
+
+"No content for reminder" = "请先输入内容再设置提醒";
+// for notification enable steps
+"Notifications disabled for this App" = "系统设置的通知功能是禁用状态";
+"Enable Notifications steps:Settings -> Notifications -> Choice the App -> Allow Notification" = "开启通知步骤:设置 -> 通知 -> 选择本App -> 允许通知";
+
+// for date label
+"Create at" = "创建时间:";
+"Update at" = "更新时间:";
+"Reminder at" = "提醒时间:";
+"Photo count" = "图片个数:";
+"Sound count" = "声音个数:";
+
+//for speech recognize
+"Comment" = "备注";
+"Start time" = "开始时间";
+"End time" = "结束时间";
+"Segment duration" = "声音片段长度（秒）";
+"Confirm delete" = "确认删除?";
+"Speech regconition need internet connection" = "语音识别需要设备能正常连接互联网";
+
+//for air transfer
+"Allow nearby devices discover me" = "允许附近设备发现我";
+"Disallow discover me" = "不允许附近设备发现我";
+"Connect to nearby device" = "连接到附近设备";
+"Disconnect" = "断开连接";
+"Air Transfer" = "隔空传递";
+"Turn on WiFi and bluetooth" = "打开WiFi和蓝牙";
+

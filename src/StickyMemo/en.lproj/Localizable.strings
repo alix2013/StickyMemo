@@ -1,0 +1,167 @@
+/* 
+  Localizable.strings
+  StickyMemo
+
+  Created by alex on 2017/12/8.
+  Copyright © 2017年 alix. All rights reserved.
+*/
+
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Delete" = "Delete";
+"Open" = "Open";
+
+"Delete memo" = "Delete memo?";
+"Set the current appearance to the default of the next new memo?" = "Set the current appearance to the default of the next new memo?";
+
+"Input Desktop Name" = "Input name";
+"Input desktop name placeholder" = "less than 20 characters";
+"Name is too long" = "Name is too long";
+"Choice action for" = "Choice action for:";
+"Confirm delete desktop" = "Delete this desktop and all notes in this desktop?";
+"Set desktop background image" = "Change background image";
+
+"Rename desktop" = "Rename desktop";
+"DefaultDesktopName" = "Default";
+
+"No content" = "No content";
+
+"Take Photo" = "Take Photo";
+"Photo Library" = "Photo Library";
+
+// for image
+"Confirm delete image" = "Confirm delete image?";
+"Choice action" = "Choice action";
+
+"Exit editing" = "Exit editing?";
+"Save and exit" = "Save and exit";
+"Exit without save" = "Exit without save";
+
+"View photo" = "Quick View";
+
+// for long tap
+"Edit" = "Edit";
+"Move" = "Move";
+"Share" = "Share" ;
+"Mail" = "Mail";
+"Mail desktop" = "Mail desktop notes";
+"Delete" = "Delete";
+
+"No more desktop" = "No more desktop for choice";
+
+"Confirm delete memo" = "Confirm delete memo? The action can not rollback";
+"Restore deleted memo" = "Restore the memo?";
+
+"Empty trash can" = "Empty trash can?";
+
+// for move
+"Choice target desktop" = "please choice a target desktop";
+
+// for settings
+"Quick start" = "Quick Start";
+"Contact developer" = "Contact developer";
+"Rate me in AppStore" = "Rate me in AppStore";
+"Sound switch" = "Sound Switch";
+"Go premium" = "Go Premium";
+"Purchase restore purchase" = "Purchase or restore purchase,unlock features";
+"Restore purchase" = "RestorePurchase";
+"Auto paste" = "Auto paste enabled";
+"Auto paste desc" = "Auto paste pasteboard text to memo\nwhen create new memo";
+
+"Transaction is in progress" = "Transaction is in progress...";
+"Restore purchase success" = "Restore purchase success";
+"Transaction success" = "Transaction success";
+"Transaction failed" = "Transaction failed";
+"No need restore" = "No need restore at current device,feature unlocked";
+"Not found purchased product" = "Not found purchased record";
+
+
+//for IAP title
+"Purchase" = "Purchase";
+
+// for sticker shop
+"Sticker shop" = "Sticker Shop";
+"Go sticker shop" = "Go Sticker Shop";
+"More stickers" = "Purchase more stickers or restore purchase in new device";
+
+//for shortcutkey
+"List item shortcut key" = "List item shortcut key";
+"Shortcut subtitle" = "Add/delete/re-order list item shortcut keys";
+"Save" = "Save";
+
+//for quickstart
+"Quick start main" = "Buttons for create,desktop management,table list and settings;\nTips: Double tap desktop to quick create a memo";
+"Quick start gesture" = "Pinch to zoom in/out,Drag/drap to move location,Double tap to edit memo;\nLong tap popup menu for move,share,email...";
+"Quick start delete" = "Move to out side of desktop for delete";
+"Quick start edit" = "Swipe left/right to switch list item style;\nTips:Double tap desktop to quick save and exit";
+"Quick start table" = "Swipe left/right to switch table content(Current Desktop/Favorited/Reminder/Trash can/All);\nTips:Double tap table text to full-screen zoom in view text";
+"Quick start speech" = "Save multiple sound record,intelligent speech recognition text to memo";
+"Quick start airtransfer" = "Easy to share,backup,sync notes(include photo,sound) with nearby iPhone/iPad devices";
+
+//for password and touchID
+"Password&TouchID" = "Passcode&Touch ID";
+"Protect privacy by password/TouchID"="Protect privacy by passcode/Touch ID";
+
+"Set/Change password" = "Set/Change passcode";
+"Enable password" = "Enable passcode";
+"Need password when start or re-active" = "Need passcode when start or re-active";
+"Enabled Touch ID(Fingerprint)" = "Enabled Touch ID(Fingerprint)";
+"Enable password first" = "Need enable passcode first";
+
+//for passwordview
+"Input password" = "Enter passcode";
+"Input new password" = "Enter new passcode";
+"Password is invalid" = "Passcode is invalid";
+"Input password again" = "Enter passcode again";
+"2 passwords are different,re-input" = "2 passcode are different,re-enter";
+"Password set success" = "passcode set success!";
+
+
+//for notification action title
+"View in board" = "View in board";
+"Reminder after 10 minutes" = "Reminder after 10 minutes";
+"Reminder after 30 minutes" = "Reminder after 30 minutes";
+"Reminder after 1 hour" = "Reminder after 1 hour";
+"Mark as complete" = "Mark as complete";
+
+//for notification repeat title
+"Never" = "Never";
+"Hourly" = "Hourly";
+"Daily" = "Daily";
+"Weekly" = "Weekly";
+"Monthly" = "Monthly";
+
+"Repeat" = "Repeat:";
+"Minute" = "Minute";
+
+"No content for reminder" = "please input content first, then set notification";
+// for notification enable steps
+"Notifications disabled for this App" = "Notifications disabled for this App";
+"Enable Notifications steps:Settings -> Notifications -> Choice the App -> Allow Notification" = "Enable Notifications steps:Settings -> Notifications -> Choice the App -> Allow Notification";
+
+// for date label
+"Create at" = "Create at:";
+"Update at" = "Update at:";
+"Reminder at" = "Reminder at:";
+"Photo count" = "Photo count:";
+"Sound count" = "Sound count:";
+
+//for speech recognize
+"Comment" = "Comment";
+"Start time" = "Start time";
+"End time" = "End time";
+"Segment duration" = "Segment duration(Seconds)";
+"Confirm delete" = "Confirm delete?";
+"Speech regconition need internet connection" = "Speech regconition need internet connection";
+
+//for Air transfer
+"Allow nearby devices discover me" = "Allow nearby devices discover me";
+"Disallow discover me" = "Disallow discover me";
+"Connect to nearby device" = "Connect to nearby device";
+"Disconnect" = "Disconnect";
+"Air Transfer" = "Air Transfer";
+"Turn on WiFi and bluetooth" = "Turn on WIFI and bluetooth";
+
+
+
+

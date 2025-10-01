@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDAudio" representedClassName="CDAudio" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="memo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMemo" inverseName="audios" inverseEntity="CDMemo" syncable="YES"/>
+    </entity>
+    <entity name="CDBackgroundImage" representedClassName="CDBackgroundImage" syncable="YES" codeGenerationType="class">
+        <attribute name="edgeBottom" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edgeLeft" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edgeRight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edgeTop" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tintColorHex" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="memo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMemo" inverseName="backgroundImage" inverseEntity="CDMemo" syncable="YES"/>
+    </entity>
+    <entity name="CDBKImageCatalog" representedClassName="CDBKImageCatalog" syncable="YES" codeGenerationType="class">
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isLocked" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="imageTemplates" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CDBKImageTemplate" inverseName="catalog" inverseEntity="CDBKImageTemplate" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="CDBKImageTemplate" representedClassName="CDBKImageTemplate" syncable="YES" codeGenerationType="class">
+        <attribute name="edgeBottom" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edgeLeft" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edgeRight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edgeTop" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tintColorHex" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="catalog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDBKImageCatalog" inverseName="imageTemplates" inverseEntity="CDBKImageCatalog" syncable="YES"/>
+    </entity>
+    <entity name="CDDefault" representedClassName="CDDefault" syncable="YES" codeGenerationType="class">
+        <attribute name="accessPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bkImageBottom" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bkImageColorHex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bkImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="bkImageLeft" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bkImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bkImageRight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bkImageTop" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isAutoPasteEnabled" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isFirstStart" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isPasswordEnabled" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSoundEnabled" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isTouchIDEnabled" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isvip" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="textColorHex" optional="YES" attributeType="String" defaultValueString="000000" syncable="YES"/>
+        <attribute name="textFontName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textFontSize" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="versionBuild" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="desktop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDDesktop" inverseName="appdefault" inverseEntity="CDDesktop" syncable="YES"/>
+    </entity>
+    <entity name="CDDesktop" representedClassName="CDDesktop" syncable="YES" codeGenerationType="class">
+        <attribute name="backImageContent" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deleteTag" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="appdefault" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDDefault" inverseName="desktop" inverseEntity="CDDefault" syncable="YES"/>
+        <relationship name="memos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CDMemo" inverseName="desktop" inverseEntity="CDMemo" syncable="YES"/>
+    </entity>
+    <entity name="CDDisplayStyle" representedClassName="CDDisplayStyle" syncable="YES" codeGenerationType="class">
+        <attribute name="colorHex" optional="YES" attributeType="String" defaultValueString="000000" syncable="YES"/>
+        <attribute name="fontName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontSize" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="memo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMemo" inverseName="displayStyle" inverseEntity="CDMemo" syncable="YES"/>
+    </entity>
+    <entity name="CDImage" representedClassName="CDImage" syncable="YES" codeGenerationType="class">
+        <attribute name="createAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageContent" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="memo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMemo" inverseName="images" inverseEntity="CDMemo" syncable="YES"/>
+    </entity>
+    <entity name="CDMemo" representedClassName="CDMemo" syncable="YES" codeGenerationType="class">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deleteTag" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorited" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isReminderEnabled" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="reminderRepeat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminderTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="audios" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CDAudio" inverseName="memo" inverseEntity="CDAudio" syncable="YES"/>
+        <relationship name="backgroundImage" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CDBackgroundImage" inverseName="memo" inverseEntity="CDBackgroundImage" syncable="YES"/>
+        <relationship name="desktop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDDesktop" inverseName="memos" inverseEntity="CDDesktop" syncable="YES"/>
+        <relationship name="displayStyle" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CDDisplayStyle" inverseName="memo" inverseEntity="CDDisplayStyle" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CDImage" inverseName="memo" inverseEntity="CDImage" syncable="YES"/>
+        <relationship name="position" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CDPosition" inverseName="memo" inverseEntity="CDPosition" syncable="YES"/>
+    </entity>
+    <entity name="CDPosition" representedClassName="CDPosition" syncable="YES" codeGenerationType="class">
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="memo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMemo" inverseName="position" inverseEntity="CDMemo" syncable="YES"/>
+    </entity>
+    <entity name="CDShortcutkey" representedClassName="CDShortcutkey" syncable="YES" codeGenerationType="class">
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDBackgroundImage" positionX="385" positionY="141" width="128" height="165"/>
+        <element name="CDBKImageCatalog" positionX="189" positionY="513" width="128" height="120"/>
+        <element name="CDBKImageTemplate" positionX="367" positionY="450" width="128" height="180"/>
+        <element name="CDDefault" positionX="27" positionY="510" width="128" height="330"/>
+        <element name="CDDesktop" positionX="-189" positionY="690" width="128" height="165"/>
+        <element name="CDDisplayStyle" positionX="178" positionY="302" width="128" height="103"/>
+        <element name="CDImage" positionX="-227" positionY="300" width="128" height="105"/>
+        <element name="CDMemo" positionX="9" positionY="81" width="128" height="285"/>
+        <element name="CDPosition" positionX="162" positionY="99" width="128" height="118"/>
+        <element name="CDShortcutkey" positionX="367" positionY="342" width="128" height="73"/>
+        <element name="CDAudio" positionX="-225" positionY="168" width="128" height="120"/>
+    </elements>
+</model>

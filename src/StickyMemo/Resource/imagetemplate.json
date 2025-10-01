@@ -1,0 +1,602 @@
+ [
+  {
+  "name": "bg_rect",
+  "order": 1,
+  "isLocked": false,
+  "edgeTop": 10,
+  "edgeLeft": 10,
+  "edgeBottom": 10,
+  "edgeRight": 10,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_rect_1",
+                       "order": 1,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_rect_2",
+                       "order": 2,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_rect_3",
+                       "order": 3,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_rect_4",
+                       "order": 4,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_rect_5",
+                       "order": 5,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_rect_6",
+                       "order": 6,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_rect_7",
+                       "order": 7,
+                       "tintColorHex": "EAE1D6"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_round",
+  "order": 2,
+  "isLocked": false,
+  "edgeTop": 15,
+  "edgeLeft": 15,
+  "edgeBottom": 15,
+  "edgeRight": 15,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_round_2",
+                       "order": 1,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_round_3",
+                       "order": 2,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_round_4",
+                       "order": 3,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_round_5",
+                       "order": 4,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_round_6",
+                       "order": 5,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_round_7",
+                       "order": 6,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_round_1",
+                       "order": 7,
+                       "tintColorHex": "FFFF8B"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_rect_pin",
+  "order": 3,
+  "isLocked": false,
+  "edgeTop": 35,
+  "edgeLeft": 20,
+  "edgeBottom": 20,
+  "edgeRight": 35,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_rect_pin_3",
+                       "order": 1,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_rect_pin_4",
+                       "order": 2,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_rect_pin_5",
+                       "order": 3,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_rect_pin_6",
+                       "order": 4,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_rect_pin_7",
+                       "order": 5,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_rect_pin_1",
+                       "order": 6,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_rect_pin_2",
+                       "order": 7,
+                       "tintColorHex": "BFE7FE"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_round_pin",
+  "order": 4,
+  "isLocked": false,
+  "edgeTop": 35,
+  "edgeLeft": 20,
+  "edgeBottom": 20,
+  "edgeRight": 35,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_round_pin_4",
+                       "order": 1,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_round_pin_5",
+                       "order": 2,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_round_pin_6",
+                       "order": 3,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_round_pin_7",
+                       "order": 4,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_round_pin_1",
+                       "order": 5,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_round_pin_2",
+                       "order": 6,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_round_pin_3",
+                       "order": 7,
+                       "tintColorHex": "C2A2D8"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_rect_misscorner",
+  "order": 5,
+  "isLocked": false,
+  "edgeTop": 10,
+  "edgeLeft": 10,
+  "edgeBottom": 30,
+  "edgeRight": 30,
+  "bkImageTemplates": [
+                       
+                       {
+                       "name": "bg_rect_misscorner_5",
+                       "order": 1,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_6",
+                       "order": 2,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_7",
+                       "order": 3,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_1",
+                       "order": 4,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_2",
+                       "order": 5,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_3",
+                       "order": 6,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_4",
+                       "order": 7,
+                       "tintColorHex": "7FE490"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_rect_misscorner_clip",
+  "order": 6,
+  "isLocked": false,
+  "edgeTop": 35,
+  "edgeLeft": 10,
+  "edgeBottom": 30,
+  "edgeRight": 30,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_rect_misscorner_clip_6",
+                       "order": 1,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_clip_7",
+                       "order": 2,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_clip_1",
+                       "order": 3,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_clip_2",
+                       "order": 4,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_clip_3",
+                       "order": 5,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_clip_4",
+                       "order": 6,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_clip_5",
+                       "order": 7,
+                       "tintColorHex": "25E3DE"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_rect_misscorner_pin",
+  "order": 7,
+  "isLocked": false,
+  "edgeTop": 35,
+  "edgeLeft": 10,
+  "edgeBottom": 30,
+  "edgeRight": 30,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_rect_misscorner_pin_7",
+                       "order": 1,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_pin_1",
+                       "order": 2,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_pin_2",
+                       "order": 3,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_pin_3",
+                       "order": 4,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_pin_4",
+                       "order": 5,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_pin_5",
+                       "order": 6,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_rect_misscorner_pin_6",
+                       "order": 7,
+                       "tintColorHex": "FF9E33"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_bubble_left",
+  "order": 8,
+  "isLocked": true,
+  "edgeTop": 28,
+  "edgeLeft": 32,
+  "edgeBottom": 28,
+  "edgeRight": 32,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_bubble_left_1",
+                       "order": 1,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_bubble_left_2",
+                       "order": 2,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_bubble_left_3",
+                       "order": 3,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_bubble_left_4",
+                       "order": 4,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_bubble_left_5",
+                       "order": 5,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_bubble_left_6",
+                       "order": 6,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_bubble_left_7",
+                       "order": 7,
+                       "tintColorHex": "EAE1D6"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_bubble_right",
+  "order": 9,
+  "isLocked": true,
+  "edgeTop": 28,
+  "edgeLeft": 32,
+  "edgeBottom": 28,
+  "edgeRight": 32,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_bubble_right_2",
+                       "order": 1,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_bubble_right_3",
+                       "order": 2,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_bubble_right_4",
+                       "order": 3,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_bubble_right_5",
+                       "order": 4,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_bubble_right_6",
+                       "order": 5,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_bubble_right_7",
+                       "order": 6,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_bubble_right_1",
+                       "order": 7,
+                       "tintColorHex": "FFFF8B"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_gap",
+  "order": 10,
+  "isLocked": true,
+  "edgeTop": 50,
+  "edgeLeft": 50,
+  "edgeBottom": 50,
+  "edgeRight": 50,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_gap_3",
+                       "order": 1,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_gap_4",
+                       "order": 2,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_gap_5",
+                       "order": 3,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_gap_6",
+                       "order": 4,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_gap_7",
+                       "order": 5,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_gap_1",
+                       "order": 6,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_gap_2",
+                       "order": 7,
+                       "tintColorHex": "BFE7FE"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_hole_left",
+  "order": 11,
+  "isLocked": true,
+  "edgeTop": 10,
+  "edgeLeft": 30,
+  "edgeBottom": 10,
+  "edgeRight": 10,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_hole_left_4",
+                       "order": 1,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_hole_left_5",
+                       "order": 2,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_hole_left_6",
+                       "order": 3,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_hole_left_7",
+                       "order": 4,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_hole_left_1",
+                       "order": 5,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_hole_left_2",
+                       "order": 6,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_hole_left_3",
+                       "order": 7,
+                       "tintColorHex": "C2A2D8"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_hole_top",
+  "order": 12,
+  "isLocked": true,
+  "edgeTop": 35,
+  "edgeLeft": 10,
+  "edgeBottom": 10,
+  "edgeRight": 10,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_hole_top_5",
+                       "order": 1,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_hole_top_6",
+                       "order": 2,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_hole_top_7",
+                       "order": 3,
+                       "tintColorHex": "EAE1D6"
+                       },
+                       {
+                       "name": "bg_hole_top_1",
+                       "order": 4,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_hole_top_2",
+                       "order": 5,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_hole_top_3",
+                       "order": 6,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_hole_top_4",
+                       "order": 7,
+                       "tintColorHex": "7FE490"
+                       }
+                       ]
+  },
+  {
+  "name": "bg_sport",
+  "order": 13,
+  "isLocked": true,
+  "edgeTop": 50,
+  "edgeLeft": 10,
+  "edgeBottom": 10,
+  "edgeRight": 50,
+  "bkImageTemplates": [
+                       {
+                       "name": "bg_sport_1",
+                       "order": 2,
+                       "tintColorHex": "FFFF8B"
+                       },
+                       {
+                       "name": "bg_sport_2",
+                       "order": 3,
+                       "tintColorHex": "BFE7FE"
+                       },
+                       {
+                       "name": "bg_sport_3",
+                       "order": 4,
+                       "tintColorHex": "C2A2D8"
+                       },
+                       {
+                       "name": "bg_sport_4",
+                       "order": 5,
+                       "tintColorHex": "7FE490"
+                       },
+                       {
+                       "name": "bg_sport_5",
+                       "order": 6,
+                       "tintColorHex": "25E3DE"
+                       },
+                       {
+                       "name": "bg_sport_6",
+                       "order": 7,
+                       "tintColorHex": "FF9E33"
+                       },
+                       {
+                       "name": "bg_sport_7",
+                       "order": 1,
+                       "tintColorHex": "EAE1D6"
+                       }
+                       ]
+  }
+  ]
+
